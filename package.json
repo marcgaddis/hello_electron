@@ -2,10 +2,9 @@
   "name": "hello_electron",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/marcgaddis/hello_electron/issues"
   },
-  "homepage": "https://github.com/marcgaddis/hello_electron#readme"
+  "homepage": "https://github.com/marcgaddis/hello_electron#readme",
+  "dependencies": {
+    "electron": "^7.1.10"
+  }
 }
